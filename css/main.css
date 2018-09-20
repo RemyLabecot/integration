@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "fontLOTR";
+    src: url("../fonts/anirb___.ttf");
+}
+@font-face {
+    font-family: "fontDark";
+    src: url("../fonts/anicm___.ttf");
+}
+@font-face {
+    font-family: "special";
+    src: url("../fonts/tngani.ttf");
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+.dead {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: "fontLOTR";
+}
+.img-opacity {
+    opacity: 0.5;
+}
+
+.img-opacity:hover + .dead {
+    opacity: 0;
+}
+.img-opacity:hover {
+    opacity: 1;
+}
+.bouton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    opacity: 1;
+}
+.gand, .aragorn {
+    opacity: 0.5;
+}
+.gand:hover + .bouton {
+    opacity: 0;
+}
+.aragorn:hover + .bouton {
+    opacity: 0;
+}
+.gand:hover{
+    opacity: 1;
+}
+.aragorn:hover {
+    opacity: 1;
+}
+ul {
+    list-style-type: none;
+}
+.nav-link {
+    
+    font-size: 20px;
+    
+}
+.nav-link {
+    font-family: "fontLOTR";
+    font-size: 1vw;
+    color: white;
+}
+
+body {
+    font-family: "fontLOTR";
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: "fontDark";
+    color: white;
+}
+.text_position {
+    text-align: center;
+    padding: 30px;
+}
+.specialFont {
+    font-family: "special";
+    color: orange;
+}
+.backWhite {
+    background-image: url(../images/bg_light.png);
+}
+.cardBack {
+    background-color: black;
+}
+.cardFont {
+    color: grey;
+}
+.card {
+    margin: 10px;
+}
+.titleMost {
+    justify-content: center;
+}
